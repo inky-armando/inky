@@ -1,13 +1,14 @@
 <template>
     <div>
           <div class="bg-color" style="max-height: 540px;">
-            <img :src="Img" class="card-img-top" style="height: 250px;">
-            <div class="card-body p-3">
+            <font-awesome-icon
+            :icon="Icon" style="font-size: 80px;" class="p-4"/>
+            <div class="card-body p-2">
                 <h5 class="card-title">{{ Title }}</h5>
               <p class="card-text">{{ Description }}</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-light">View</button>
                 </div>
                 <small class="text-body-secondary">{{TimeRead}}</small>
               </div>
@@ -18,12 +19,22 @@
 
 <script>
 export default {
-  props: ['Title', 'Description', 'TimeRead', "Img"],
-  computed(){
-    cssProps(); {
-      return {
-        '--bg-image' : this.Img
-      }
+  props: {
+    Icon: {
+      type: String,
+      default: 'plug'
+    },
+    Title: {
+      type: String,
+      default: 'Title'
+    },
+    Description: {
+      type: String,
+      default: 'Project description'
+    },
+    TimeRead: {
+      type: String,
+      default: '10 min'
     }
   },
   mounted(){
@@ -36,11 +47,5 @@ export default {
 .bg-color{
   background-color: rgb(162, 134, 201)!important;
 }
-
-.imageHolder {
-  height: 180px;
-  width: auto;
-}
-
 
 </style>

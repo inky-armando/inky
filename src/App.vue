@@ -1,16 +1,19 @@
 <template>
   <div class="app">
+    <NavBar/>
     <router-view class="flex-shrink-0"/>
     <Footer class="footer mt-auto p-3"></Footer>
   </div>
 </template>
 
 <script>
+import NavBar from './components/NavBar.vue';
 import Footer from './components/Footer.vue'
 
 export default {
   components:{
-    Footer
+    Footer,
+    NavBar
   }
 }
 </script>
@@ -19,6 +22,10 @@ export default {
 .footer {
     background-color: rgba(127, 255, 212, 0.336);
 
+}
+
+.titles {
+  color: rgb(20, 17, 54)!important;
 }
 
 body{
