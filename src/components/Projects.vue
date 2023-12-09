@@ -5,7 +5,7 @@
             <p class="lead mb-4">Project ideas that I find very useful</p>
             <div class="row justify-content-center">
                 <ProjectCard class="col-lg-4 p-3" v-for="project in projectList" :Title="project.title"
-                    :Description="project.description" :TimeRead="project.timeRead" :Icon="project.icon"></ProjectCard>
+                    :Description="project.description" :TimeRead="project.timeRead" :Icon="project.icon" :Id="project.id"></ProjectCard>
                 <div class="col p-3">
                 </div>
             </div>
@@ -14,6 +14,7 @@
 </template>
 
 <script>
+import api from '../api/api'
 import ProjectCard from './ProjectCard.vue';
 
 export default {
@@ -22,27 +23,11 @@ export default {
     },
     data() {
         return {
-            projectList: [
-                {
-                    title: "Discord Bot",
-                    description: "Serverless AWS Discord Bot created to provide media from different KPOP Idols.",
-                    timeRead: "10 min",
-                    icon: "fa-brands fa-discord"
-                },
-                {
-                    title: "Web Browser Workers",
-                    description: "Demostration of usage for Workers on web browsers.",
-                    timeRead: "5 min",
-                    icon: "fa-solid fa-microchip"
-                },
-                {
-                    title: "AWS S3 Hosted website",
-                    description: "Guide to develop and host your own website.",
-                    timeRead: "5 min",
-                    icon: "fa-brands fa-aws"
-                }
-            ]
+            projectList: null
         }
+    },
+    created(){
+        this.projectList = api.projects
     }
 }
 </script>

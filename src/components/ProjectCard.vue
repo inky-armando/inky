@@ -8,7 +8,7 @@
               <p class="card-text">{{ Description }}</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <router-link to="/project/1"><button type="button" class="btn btn-sm btn-outline-light">View</button></router-link>
+                  <router-link :to="'/project/'+Id"><button type="button" class="btn btn-sm btn-outline-light">View</button></router-link>
                 </div>
                 <small class="text-body-secondary">{{TimeRead}}</small>
               </div>
@@ -20,6 +20,10 @@
 <script>
 export default {
   props: {
+    Id: {
+      type: Number,
+      default: 0
+    },
     Icon: {
       type: String,
       default: 'plug'
