@@ -7,7 +7,6 @@
                 <ProjectCard class="col-lg-4 p-3" v-for="project in projectList" :Title="project.title"
                     :Description="project.description" :TimeRead="project.timeRead" :Icon="project.icon"></ProjectCard>
                 <div class="col p-3">
-                    <button class="btn btn-outline-dark">Ver proyectos</button>
                 </div>
             </div>
         </div>
