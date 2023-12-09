@@ -22,7 +22,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <button class="btn btn-dark">Leer Más</button>
+        <router-link to="/about"><button class="btn btn-outline-dark">Leer Más</button></router-link>
       </div>
     </div>
   </div>
