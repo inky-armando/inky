@@ -1,5 +1,5 @@
 <template>
-    <div class="container p-5">
+    <div class="p-5">
         <h2 class="display-5 fw-bold text-body-emphasis">Apps</h2>
         <p class="lead mb-4">Functional Applications available for download</p>
         <div class="row justify-content-center">
