@@ -13,20 +13,29 @@
             icon="fa-brands fa-github" style="font-size: 35px;" /></a>
         <a target="_blank" href="https://www.linkedin.com/in/jesús-armando-mercado-lugo-a832a617a/"
           class="col-2"><font-awesome-icon icon="fa-brands fa-linkedin" style="font-size: 35px;" /></a>
+        <a target="_blank" href="https://discord.gg/BSmJ2N3gcn"
+          class="col-2"><font-awesome-icon icon="fa-brands fa-discord" style="font-size: 35px;" /></a>
       </div>
     </div>
     <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">¡Hola! Mi nombre es Armando Mercado y soy un desarrollador de software, soy mexicano y tengo 23
-        años. Te invito a
-        conocer más sobre mi experiencia y mis proyectos.</p>
+      <p class="lead mb-4">¡Hi! Mi nombre es Armando Mercado, tengo 23 años y soy un desarrollador de software. Te invito a conocer más sobre mi experiencia y mis proyectos.</p>
     </div>
     <div class="row">
       <div class="col">
-        <router-link to="/about"><button class="btn btn-outline-dark">Leer Más</button></router-link>
+        <router-link to="/about" ><button class="btn btn-outline-dark">Leer Más</button></router-link>
       </div>
     </div>
   </div>
 </template>
+<script>
+export default {
+  methods: { 
+  scrollToTop() {
+    window.scrollTo(0,0);
+  }
+}
+}
+</script>
 
 <style>a {
   color: rgb(20, 17, 54) !important;

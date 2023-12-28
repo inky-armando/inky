@@ -139,23 +139,65 @@ export default {
             description: "Serverless AWS Discord Bot created to provide media from different KPOP Idols.",
             timeRead: "10 min",
             icon: "fa-brands fa-discord"
+        }
+    ],
+    apps: [
+        {
+
+        }
+    ],
+    experience: [
+        {
+            id: 1,
+            title: "Pasteursoft",
+            time_spend: "2 yrs",
+            job_title: "Fullstack Developer",
+            role_description: `I Worked on a complex database migration initiative, involving the transfer of
+            extensive MySQL datasets, each ranging from 20-40GB in size, to MongoDB
+            databases hosted on AWS EC2 instances. The migration was executed using a
+            Dockerized agent written in Java, leveraging the Spring Boot framework for
+            schema conversion. Apache Kafka was strategically employed to stream and
+            validate data during the migration process, ensuring data accuracy and consistency.`,
+            languages: ["fa-brands fa-js", "fa-brands fa-java", "fa-brands fa-react", "fa-brands fa-github"]
         },
         {
             id: 2,
-            body: "IN PROGRESS...",
-            title: "Web Browser Workers",
-            description: "Demostration of usage for Workers on web browsers.",
-            timeRead: "5 min",
-            icon: "fa-solid fa-microchip"
+            title: "Free-lance Developer",
+            time_spend: "1 yrs",
+            job_title: "Web Developer",
+            role_description: `As a freelance developer, I collaborated with local startups to design, and implement
+            user-friendly and UX-driven web applications. In addition, I played a pivotal role in the
+            creation of administrative tools designed to streamline workflows for the company's
+            employees. The tech stack I used for these freelance projects included Vue.js for the
+            frontend, MongoDB Atlas for robust data management, and Heroku as a reliable
+            deployment platform.`,
+            languages: ["fa-brands fa-node-js", "fa-brands fa-vuejs"]
         },
         {
             id: 3,
-            body: "IN PROGRESS...",
-            title: "AWS S3 Hosted website",
-            description: "Guide to develop and host your own website.",
-            timeRead: "5 min",
-            icon: "fa-brands fa-aws"
-
+            title: "EASE",
+            time_spend: "1 yrs",
+            job_title: "Backend Developer",
+            role_description: `I worked in a project undertaken for a government department, the objective was to
+            streamline the administration's control over per diem expenses of workers. In order to
+            achieve this, REST APIs were built using Node.js, Plus proficient use of Python was also
+            demonstrated through the extraction of vital data from spreadsheets. Also peer reviews
+            of frontend code were conducted using Vue, enhancing the overall quality and efficiency
+            of the project. Node.js was once again utilized in the generation of comprehensive PDF
+            reports, contributing to the project's aim of improved expense management.
+            Finally, the infrastructure of the project was managed on GCP virtual machines,
+            showcasing skill sets in both development and management of digital infrastructure.
+            `,
+            languages: ["fa-brands fa-node-js", "fa-brands fa-google", "fa-brands fa-python"]
+        }
+    ],
+    certifications: [
+        {
+            id: 1,
+            name: "AWS Cloud Practitioner",
+            valid: "2023 - 2026",
+            badge: "aws.png",
+            link: "https://www.credly.com/badges/286074e5-2b4b-4654-9bc3-ed54efae6943/public_url"
         }
     ]
 }

@@ -22,6 +22,12 @@ import { faDiscord } from '@fortawesome/free-brands-svg-icons'
 import { faVuejs } from '@fortawesome/free-brands-svg-icons'
 import { faFontAwesome } from '@fortawesome/free-solid-svg-icons'
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons'
+import { faJs } from '@fortawesome/free-brands-svg-icons'
+import { faJava } from '@fortawesome/free-brands-svg-icons'
+import { faReact } from '@fortawesome/free-brands-svg-icons'
+import { faNodeJs } from '@fortawesome/free-brands-svg-icons'
+import { faGoogle } from '@fortawesome/free-brands-svg-icons'
+import { faPython } from '@fortawesome/free-brands-svg-icons';
 
 import 'popper.js'
 import './assets/app.css';
@@ -29,7 +35,27 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import "bootstrap";
 
-library.add(faLinkedin, faYoutube, faInstagram, faGithub, faTwitch, faLanguage, faDiscord, faAws, faMicrochip, faWineBottle, faVuejs, faBootstrap, faFontAwesome)
+library.add(
+    faLinkedin, 
+    faYoutube, 
+    faInstagram, 
+    faGithub, 
+    faTwitch, 
+    faLanguage, 
+    faDiscord, 
+    faAws, 
+    faMicrochip, 
+    faWineBottle, 
+    faVuejs, 
+    faBootstrap, 
+    faFontAwesome,
+    faJava,
+    faJs,
+    faNodeJs,
+    faGoogle,
+    faPython,
+    faReact
+)
 
 
 createApp(App).use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app')

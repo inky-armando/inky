@@ -5,15 +5,19 @@
         </div>
         <div class="container">
             <font-awesome-icon icon="fab fa-vuejs" style="font-size: 120px;" class="p-4" />
-            <p>Esta página web fue diseñada y programada utilizando <a href="https://vuejs.org">Vue.js</a> para su
+            <p>Esta página web fue diseñada y programada utilizando <a target="_blank" href="https://vuejs.org">Vue.js</a> para su
                 funcionalidad
                 y ágil desarrollo.</p>
         </div>
         <div class="container">
             <font-awesome-icon icon="fab fa-bootstrap" style="font-size: 80px;" class="p-4" />
             <font-awesome-icon icon="fa fa-font-awesome" style="font-size: 80px;" class="p-4" />
-            <p>Para la sección de estilos y graficos se utilizó <a href="https://getbootstrap.com">Bootstrap 5</a> y <a
+            <p>Para la sección de estilos se utilizó <a target="_blank" href="https://getbootstrap.com">Bootstrap 5</a> y <a target="_blank"
                 href="https://fontawesome.com">Font Awesome</a> para los iconos.</p>
+        </div>
+        <div class="container">
+            <font-awesome-icon icon="fab fa-aws" style="font-size: 120px;" class="p-4" />
+            <p>El Hosting de esta página es gracias a la tecnologia S3 de <a target="_blank" href="https://aws.amazon.com/es">Amazon Web Services</a>.</p>
         </div>
     </div>
 </template>

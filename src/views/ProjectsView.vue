@@ -8,17 +8,15 @@
 import api from '../api/api'
 
 export default {
-    data(){
+    data() {
         return {
             body: ""
         }
     },
-    created(){
-        console.log(api.projects)
-        api.projects.forEach( project => {
-            if(project.id == this.$route.params.id) this.body = project.body
+    created() {
+        api.projects.forEach(project => {
+            if (project.id == this.$route.params.id) this.body = project.body
         })
-        console.log(this.$route.params.id)
     }
 }
 </script>
@@ -37,11 +35,12 @@ pre {
     padding: 10px;
 }
 
-.hljs-function{
+.hljs-function {
     color: rgb(218, 138, 207);
 }
 
-.hljs-keyword, .hljs-built_in {
+.hljs-keyword,
+.hljs-built_in {
     color: rgb(13, 230, 238);
 }
 
