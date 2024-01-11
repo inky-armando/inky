@@ -41,9 +41,6 @@ export default {
       default: '10 min'
     }
   },
-  mounted() {
-    window.scrollTo({x: 0, y: 0})
-  },
 
 }
 </script>

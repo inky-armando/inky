@@ -13,17 +13,10 @@
             icon="fa-brands fa-github" style="font-size: 35px;" /></a>
         <a target="_blank" href="https://www.linkedin.com/in/jesús-armando-mercado-lugo-a832a617a/"
           class="col-2"><font-awesome-icon icon="fa-brands fa-linkedin" style="font-size: 35px;" /></a>
-        <a target="_blank" href="https://discord.gg/BSmJ2N3gcn"
-          class="col-2"><font-awesome-icon icon="fa-brands fa-discord" style="font-size: 35px;" /></a>
       </div>
     </div>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">¡Hi! Mi nombre es Armando Mercado, tengo 23 años y soy un desarrollador de software. Te invito a conocer más sobre mi experiencia y mis proyectos.</p>
-    </div>
-    <div class="row">
-      <div class="col">
-        <router-link to="/about" ><button class="btn btn-outline-dark">Leer Más</button></router-link>
-      </div>
     </div>
   </div>
 </template>
