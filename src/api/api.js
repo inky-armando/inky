@@ -152,13 +152,13 @@ export default {
             title: "Pasteursoft",
             time_spend: "2 yrs",
             job_title: "Fullstack Developer",
-            role_description: `I Worked on a complex database migration initiative, involving the transfer of
+            role_description: `I worked on a complex database migration initiative, involving the transfer of
             extensive MySQL datasets, each ranging from 20-40GB in size, to MongoDB
             databases hosted on AWS EC2 instances. The migration was executed using a
             Dockerized agent written in Java, leveraging the Spring Boot framework for
             schema conversion. Apache Kafka was strategically employed to stream and
             validate data during the migration process, ensuring data accuracy and consistency.`,
-            languages: ["fa-brands fa-js", "fa-brands fa-java", "fa-brands fa-react", "fa-brands fa-github"]
+            languages: ["fa-brands fa-js", "fa-brands fa-java", "fa-brands fa-react", "fa-brands fa-github", "fa-brands fa-aws"]
         },
         {
             id: 2,
@@ -171,7 +171,7 @@ export default {
             employees. The tech stack I used for these freelance projects included Vue.js for the
             frontend, MongoDB Atlas for robust data management, and Heroku as a reliable
             deployment platform.`,
-            languages: ["fa-brands fa-node-js", "fa-brands fa-vuejs"]
+            languages: ["fa-brands fa-node-js", "fa-brands fa-vuejs", "fa-brands fa-github"]
         },
         {
             id: 3,
@@ -188,7 +188,7 @@ export default {
             Finally, the infrastructure of the project was managed on GCP virtual machines,
             showcasing skill sets in both development and management of digital infrastructure.
             `,
-            languages: ["fa-brands fa-node-js", "fa-brands fa-google", "fa-brands fa-python"]
+            languages: ["fa-brands fa-node-js", "fa-brands fa-google", "fa-brands fa-python", "fa-brands fa-github"]
         }
     ],
     certifications: [

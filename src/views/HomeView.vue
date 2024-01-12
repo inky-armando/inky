@@ -6,9 +6,9 @@
     </div>
     <div>
       <div class="p-5">
-        <h2 class="display-5 fw-bold text-body-emphasis titles">Esta página</h2>
-        <p class="lead mb-4">¿Quieres saber como se hizo está página web?</p>
-        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Leer más</button>
+        <h2 class="display-5 fw-bold text-body-emphasis titles">This Site</h2>
+        <p class="lead mb-4">Want to know how this Site was build?</p>
+        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
       </div>
     </div>
     <Modal>

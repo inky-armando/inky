@@ -84,6 +84,10 @@ export default {
   margin: 10px;
 }
 
+.card-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
 .text-bg-dark {
   background-color: rgb(12, 17, 36) !important;
 }
