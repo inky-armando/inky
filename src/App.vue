@@ -16,7 +16,7 @@ export default {
     NavBar
   },
   created() {
-    console.log("Esta página web está dedicada al hechicero más fuerte de todos los tiempos, te extraño mucho Gojo Satoru :c")
+    console.log("This website is dedicated to the STRONGEST Jujustu Sorcerer, Satoru Gojo. In my heart, you won... :c")
     console.log("- Inky Armando")
     console.log(`
     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
