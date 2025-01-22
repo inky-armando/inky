@@ -148,6 +148,17 @@ export default {
     ],
     experience: [
         {
+            id: 4,
+            title: "Mitek Systems",
+            time_spend: "Current",
+            job_title: "Software Engineer - Backend developer",
+            role_description: `I work on creating backend solutions for banks worldwide, utilizing Golang microservices hosted on AWS. 
+            These microservices are designed to ensure scalability, reliability, and seamless integration with client systems. 
+            My responsibilities include writing, maintaining, and supporting these services while optimizing their performance. 
+            I also troubleshoot and resolve production issues, ensuring minimal downtime and maximum efficiency.`,
+            languages: ["fa-brands fa-golang", "fa-brands fa-github", "fa-brands fa-aws"]
+        },
+        {
             id: 1,
             title: "Pasteursoft",
             time_spend: "2 yrs",
@@ -160,7 +171,7 @@ export default {
             validate data during the migration process, ensuring data accuracy and consistency.`,
             languages: ["fa-brands fa-js", "fa-brands fa-java", "fa-brands fa-react", "fa-brands fa-github", "fa-brands fa-aws"]
         },
-        {
+        /*{
             id: 2,
             title: "Free-lance Developer",
             time_spend: "1 yrs",
@@ -172,7 +183,7 @@ export default {
             frontend, MongoDB Atlas for robust data management, and Heroku as a reliable
             deployment platform.`,
             languages: ["fa-brands fa-node-js", "fa-brands fa-vuejs", "fa-brands fa-github"]
-        },
+        },*/
         {
             id: 3,
             title: "EASE",
