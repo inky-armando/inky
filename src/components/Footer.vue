@@ -1,7 +1,7 @@
 <template>
     <footer class="mt-auto py3">
         <div class="container">
-            <p class="text-center">© 2024 Inky Armando</p>
+            <p class="text-center">© 2025 Inky Armando</p>
         </div>
     </footer>
 </template>

@@ -27,7 +27,8 @@ import { faJava } from '@fortawesome/free-brands-svg-icons'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
 import { faNodeJs } from '@fortawesome/free-brands-svg-icons'
 import { faGoogle } from '@fortawesome/free-brands-svg-icons'
-import { faPython } from '@fortawesome/free-brands-svg-icons';
+import { faPython } from '@fortawesome/free-brands-svg-icons'
+import { faGolang } from '@fortawesome/free-brands-svg-icons'
 
 import 'popper.js'
 import './assets/app.css';
@@ -54,7 +55,8 @@ library.add(
     faNodeJs,
     faGoogle,
     faPython,
-    faReact
+    faReact,
+    faGolang
 )
 
 
