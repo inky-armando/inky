@@ -152,7 +152,7 @@ export default {
             title: "Mitek Systems",
             time_spend: "Current",
             job_title: "Software Engineer - Backend developer",
-            role_description: `I work on creating backend solutions for banks worldwide, utilizing Golang microservices hosted on AWS. 
+            role_description: `I work creating backend solutions for banks worldwide, utilizing Golang microservices hosted on AWS. 
             These microservices are designed to ensure scalability, reliability, and seamless integration with client systems. 
             My responsibilities include writing, maintaining, and supporting these services while optimizing their performance. 
             I also troubleshoot and resolve production issues, ensuring minimal downtime and maximum efficiency.`,
