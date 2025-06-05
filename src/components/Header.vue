@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Hi! My name is Armando Mercado, I'm 25 years old and I'am a Software Developer. In this site you'll find some of my previous work experience and projects.</p>
+      <p class="lead mb-4">Hi! My name is Armando Mercado, I'm 25 years old and I'm a Software Developer. In this site you'll find some of my previous work experience and projects.</p>
     </div>
   </div>
 </template>
