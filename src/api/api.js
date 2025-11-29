@@ -150,7 +150,7 @@ export default {
         {
             id: 4,
             title: "Mitek Systems",
-            time_spend: "Current",
+            time_spend: "2 yrs",
             job_title: "Software Engineer - Backend developer",
             role_description: `I work on creating backend solutions for banks worldwide, utilizing Golang microservices hosted on AWS. 
             These microservices are designed to ensure scalability, reliability, and seamless integration with client systems. 
@@ -209,6 +209,13 @@ export default {
             valid: "2023 - 2026",
             badge: "aws.png",
             link: "https://www.credly.com/badges/286074e5-2b4b-4654-9bc3-ed54efae6943/public_url"
+        },
+        {
+            id: 2,
+            name: "Python Essentials 1",
+            valid: "2025",
+            badge: "pythonEssentials.png",
+            link: "https://www.credly.com/badges/a6b8c723-f059-444e-9ea0-ee2f2af73036/public_url"
         }
     ]
 }

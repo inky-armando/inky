@@ -26,13 +26,15 @@
       </div>
     </div>
     <hr>
-    <div class="certifications">
+    <div class="certifications row justify-content-center">
       <h2 class="display-5 fw-bold text-body-primary titles mt-4">Certifications</h2>
       <p class="lead mb-4">My current certifications badges</p>
-      <div class="cert">
-        <a target="_blank" href="https://www.credly.com/badges/286074e5-2b4b-4654-9bc3-ed54efae6943/public_url">
-          <img src="./../assets/aws.png" alt="" class="badge-cert">
-        </a>
+      <div class="certification col-auto" v-for="cert in certifications">
+        <div class="cert">
+          <a target="_blank" :href="cert.link">
+            <img :src="cert.badge" alt="" class="badge-cert">
+          </a>
+        </div>
       </div>
     </div>
     <hr>
@@ -88,6 +90,7 @@ export default {
   text-align: justify;
   text-justify: inter-word;
 }
+
 .text-bg-dark {
   background-color: rgb(12, 17, 36) !important;
 }
